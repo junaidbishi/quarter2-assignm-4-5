@@ -8,7 +8,7 @@ import freshsix from "@/app/Public/freshsix.jpg"
 import Header from "../commonents/header";
 
 
-export default function Blogg() {
+export default function Home() {
   return (
   
     <div className="bg-gradient-to-r from-black to-red-200 min-h-screen text-white">
