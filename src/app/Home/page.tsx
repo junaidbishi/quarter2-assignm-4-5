@@ -5,11 +5,15 @@ import freshthree from "@/app/Public/freshthree.jpg"
 import freshfour from "@/app/Public/freshfour.jpg"
 import freshfive from "@/app/Public/freshfive.jpg"
 import freshsix from "@/app/Public/freshsix.jpg"
-import Link from "next/link";
+import Header from "../commonents/header";
 
 
 export default function Blogg() {
   return (
+  
+    <div className="bg-gradient-to-r from-black to-red-200 min-h-screen text-white">
+      
+        <Header/>
     <div className="parentContainer">
       <div className="childContainer tilt-in-right-2" >
         <div className=" imagecontainerone">
@@ -24,10 +28,10 @@ export default function Blogg() {
 
       <div className="childContainer  tilt-in-right-2">
         <div className=" imagecontainerone">
-         <Image src={frehtwo} alt="bghjk" width={300} height={100}/>
+         <Image src={frehtwo} alt="bghjk" width={300} height={300}/>
         </div>
         <div className="merge">
-        <h1 className="title">this is first block</h1>
+        <h1 className="title">this is sec block</h1>
         <p className="description">this is my blog site</p>
         <button className="readMore">Read More</button>
         </div>
@@ -44,7 +48,7 @@ export default function Blogg() {
         </div>
       </div>
 
-      <div className="childContainer  tilt-in-right-2">
+      <div className="childContainer tilt-in-right-2">
         <div className=" imagecontainerone">
          <Image src={freshfour} alt="bghjk" width={300} height={100}/>
         </div>
@@ -66,7 +70,7 @@ export default function Blogg() {
         </div>
       </div>
 
-      <div className="childContainer  tilt-in-right-2">
+      <div className="childContainer tilt-in-right-2">
         <div className=" imagecontainerone">
          <Image src={freshsix} alt="bghjk" width={300} height={100}/>
         </div>
@@ -80,6 +84,7 @@ export default function Blogg() {
 
 
 
+    </div>
     </div>
   )
 }
