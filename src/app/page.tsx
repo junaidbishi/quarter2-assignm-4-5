@@ -10,9 +10,9 @@ export default function home() {
        
         <Header/>
         <Blogg />
-        <div className="fotter">
+     
           <Footer/>
-          </div>
+       
         
          {/* <Header2/> */}
     </div>
