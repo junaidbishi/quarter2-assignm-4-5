@@ -1,5 +1,5 @@
 
-import Link from "next/link"
+// import Link from "next/link"
 
 
 export default function Footer(){
@@ -12,12 +12,12 @@ export default function Footer(){
                 <a  className="hover:text-cyan-500 text-amber-400" href="/">location</a>
 
             </nav>
-            <div className="flex justify-center space-x-6 transition-transform duration-500 ease-in-out transform hover:scale-105">
+            {/* <div className="flex justify-center space-x-6 transition-transform duration-500 ease-in-out transform hover:scale-105">
 
                 <a className="" href="https://facebook.com" target="blank" rel="nofollow">
                 <img src="" alt="" />
                 </a>
-            </div>
+            </div> */}
 
 
 

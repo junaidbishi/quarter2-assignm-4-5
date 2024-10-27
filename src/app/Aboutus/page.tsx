@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Header from "../commonents/header";
 
 export default function Aboutus(){

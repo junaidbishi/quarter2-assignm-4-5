@@ -5,7 +5,7 @@ import freshthree from "@/app/Public/freshthree.jpg"
 import freshfour from "@/app/Public/freshfour.jpg"
 import freshfive from "@/app/Public/freshfive.jpg"
 import freshsix from "@/app/Public/freshsix.jpg"
-import Link from "next/link";
+// import Link from "next/link";
 
 
 export default function Blogg() {
