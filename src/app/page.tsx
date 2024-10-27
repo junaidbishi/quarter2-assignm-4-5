@@ -1,6 +1,6 @@
 
 import Header from "./commonents/header";
-import Header2 from "./commonents/header2";
+
 import Blogg from "./Blogitem/page";
 import Footer from "./commonents/Footer";
 

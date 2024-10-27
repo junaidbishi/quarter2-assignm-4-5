@@ -11,7 +11,7 @@ export default function Header(){
     <div className="header">
     <ul className="headerbuttons" > 
     <div className=" logo">
-        <button > <Image src={freshfoodsix}  /></button>
+        <button > <Image src={freshfoodsix} alt={"logo"}  /></button>
         </div>
        
    <Link href={"/"} ><li>   <button className="hover">Home</button></li></Link>

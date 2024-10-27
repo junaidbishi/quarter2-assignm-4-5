@@ -2,7 +2,7 @@
 import Header from "../commonents/header"
 
 
-export default function(){
+export default function contactus(){
 return(
 <div className="bg-gradient-to-r from-black to-grey-200 min-h-screen text-white">
 <Header/>
