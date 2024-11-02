@@ -3,6 +3,8 @@
 // import Blogg from "./Blogitem/page";
 import Footer from "./commonents/Footer";
 import Home from "./Home/page";
+import Contactus from "./Contact-us/page";
+import Aboutus from "./Aboutus/page";
 
 
 export default function app() {
@@ -11,6 +13,9 @@ export default function app() {
         {/* <Header/> */}
         {/* <Blogg /> */}
      <Home/>
+     <Contactus/>
+     <Aboutus/>
+
           <Footer/>
        
         
