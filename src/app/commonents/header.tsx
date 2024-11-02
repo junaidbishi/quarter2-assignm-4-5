@@ -1,9 +1,9 @@
 
 import Image from "next/image";
-import Link from "next/link"
-import Home from "../Home/page"
-import Aboutus from "../Aboutus/page"
-import Location from "../Contact-us/page"
+import Link from "next/link";
+import Home from "../Home/page";
+import Aboutus from "../Aboutus/page";
+import contactus from "../Contact-us/page";
 import freshfoodsix from "@/app/Public/freshfoodsix.png"
 
 export default function Header(){
